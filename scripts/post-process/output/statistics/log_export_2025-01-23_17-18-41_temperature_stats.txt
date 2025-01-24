@@ -1,0 +1,35 @@
+Temperature Summary Statistics
+
+
+Temperature Sensor 1:
+count    34.0
+mean     20.1
+std       0.0
+min      20.1
+25%      20.1
+50%      20.1
+75%      20.1
+max      20.1
+Name: temperature, dtype: float64
+
+Temperature Sensor 2:
+count    3.500000e+01
+mean     2.010000e+01
+std      3.604581e-15
+min      2.010000e+01
+25%      2.010000e+01
+50%      2.010000e+01
+75%      2.010000e+01
+max      2.010000e+01
+Name: temperature, dtype: float64
+
+Temperature Sensor 3:
+count      34.0
+mean     1320.0
+std         0.0
+min      1320.0
+25%      1320.0
+50%      1320.0
+75%      1320.0
+max      1320.0
+Name: temperature, dtype: float64

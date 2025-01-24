@@ -1,0 +1,241 @@
+[17:39:25] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:39:25] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:25] - ERROR: Failed to open serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:39:25] - INFO: G9 driver initialized
+[17:39:26] - DEBUG: Initializing E5CNModbus with port: COM16
+[17:39:26] - INFO: E5CN Connected to port COM16.
+[17:39:26] - DEBUG: Started temperature reading thread for unit 1
+[17:39:26] - DEBUG: Started temperature reading thread for unit 2
+[17:39:26] - DEBUG: Started temperature reading thread for unit 3
+[17:39:26] - INFO: Connected to all temperature controllers via Modbus on COM16
+[17:39:26] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:39:26] - DEBUG: Raw command sent: SABC3
+[17:39:26] - ERROR: Failed to initialize CathodeA PS on port DUMMY_COM1: 'NoneType' object has no attribute 'write'
+[17:39:26] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:39:26] - DEBUG: Raw command sent: SABC3
+[17:39:26] - ERROR: Failed to initialize CathodeB PS on port DUMMY_COM1: 'NoneType' object has no attribute 'write'
+[17:39:26] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:39:26] - DEBUG: Raw command sent: SABC3
+[17:39:26] - ERROR: Failed to initialize CathodeC PS on port DUMMY_COM1: 'NoneType' object has no attribute 'write'
+[17:39:26] - DEBUG: Power supply 1 not initialized. Button disabled.
+[17:39:26] - DEBUG: Power supply 2 not initialized. Button disabled.
+[17:39:26] - DEBUG: Power supply 3 not initialized. Button disabled.
+[17:39:26] - DEBUG: No power supplies were initialized properly.
+[17:39:26] - WARNING: No temperature data for cathode 1
+[17:39:26] - WARNING: No temperature data for cathode 2
+[17:39:26] - WARNING: No temperature data for cathode 3
+[17:39:26] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:26] - WARNING: G9 driver not connected
+[17:39:25] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:39:26] - ERROR: Error reading temperature from unit 1: Modbus Error: [Input/Output] Modbus Error: [Invalid Message] Incomplete message received, expected at least 4 bytes (3 received)
+[17:39:26] - ERROR: Failed to reconnect to PMON
+[17:39:27] - INFO: Temperature from unit 1: 19.90 °C
+[17:39:27] - INFO: Unit 1 Temperature: 19.9 C
+[17:39:27] - WARNING: No temperature data for cathode 2
+[17:39:27] - WARNING: No temperature data for cathode 3
+[17:39:27] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:27] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:27] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:27] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:27] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:27] - WARNING: G9 driver not connected
+[17:39:27] - CRITICAL: Cathode C OVERTEMP!
+[17:39:27] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:27] - INFO: Temperature from unit 1: 19.90 °C
+[17:39:27] - INFO: Unit 1 Temperature: 19.9 C
+[17:39:27] - ERROR: Error reading temperature from unit 3: Modbus Error: [Input/Output] Modbus Error: [Invalid Message] Incomplete message received, expected at least 4 bytes (3 received)
+[17:39:27] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:39:28] - CRITICAL: Cathode C OVERTEMP!
+[17:39:28] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:28] - ERROR: Error reading temperature from unit 3: Modbus Error: [Input/Output] No Response received from the remote slave/Unable to decode response
+[17:39:28] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:28] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:28] - INFO: Temperature from unit 1: 19.90 °C
+[17:39:28] - INFO: Unit 1 Temperature: 19.9 C
+[17:39:28] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:28] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:28] - CRITICAL: Cathode C OVERTEMP!
+[17:39:28] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:29] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:29] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:29] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:29] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:29] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:29] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:29] - CRITICAL: Cathode C OVERTEMP!
+[17:39:29] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:29] - WARNING: G9 driver not connected
+[17:39:29] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:29] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:29] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:29] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:29] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:29] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:29] - CRITICAL: Cathode C OVERTEMP!
+[17:39:29] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:30] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:30] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:30] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:30] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:30] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:30] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:30] - CRITICAL: Cathode C OVERTEMP!
+[17:39:30] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:30] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:30] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:30] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:30] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:30] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:30] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:31] - CRITICAL: Cathode C OVERTEMP!
+[17:39:31] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:31] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:31] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:31] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:31] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:31] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:31] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:31] - CRITICAL: Cathode C OVERTEMP!
+[17:39:31] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:32] - ERROR: Error reading temperature from unit 3: Modbus Error: [Input/Output] No Response received from the remote slave/Unable to decode response
+[17:39:32] - CRITICAL: Cathode C OVERTEMP!
+[17:39:32] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:32] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:32] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:32] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:32] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:32] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:32] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:32] - CRITICAL: Cathode C OVERTEMP!
+[17:39:32] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:32] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:39:33] - ERROR: Error reading temperature from unit 3: Modbus Error: [Input/Output] No Response received from the remote slave/Unable to decode response
+[17:39:33] - CRITICAL: Cathode C OVERTEMP!
+[17:39:33] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:33] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:33] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:33] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:33] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:33] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:33] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:33] - WARNING: G9 driver not connected
+[17:39:33] - CRITICAL: Cathode C OVERTEMP!
+[17:39:33] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:33] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:33] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:33] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:33] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:34] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:34] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:34] - CRITICAL: Cathode C OVERTEMP!
+[17:39:34] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:34] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:34] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:34] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:34] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:34] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:34] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:35] - CRITICAL: Cathode C OVERTEMP!
+[17:39:35] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:35] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:35] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:35] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:35] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:35] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:35] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:35] - CRITICAL: Cathode C OVERTEMP!
+[17:39:35] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:35] - ERROR: Error reading temperature from unit 3: Modbus Error: [Input/Output] Modbus Error: [Invalid Message] Incomplete message received, expected at least 4 bytes (3 received)
+[17:39:36] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:36] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:36] - CRITICAL: Cathode C OVERTEMP!
+[17:39:36] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:36] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:36] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:36] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:36] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:36] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:36] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:36] - CRITICAL: Cathode C OVERTEMP!
+[17:39:36] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:36] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:36] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:36] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:36] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:37] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:37] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:37] - CRITICAL: Cathode C OVERTEMP!
+[17:39:37] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:37] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:37] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:37] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:37] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:37] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:37] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:37] - CRITICAL: Cathode C OVERTEMP!
+[17:39:37] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:37] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:39:37] - ERROR: Failed to reconnect to PMON
+[17:39:38] - ERROR: Error reading temperature from unit 2: Modbus Error: [Input/Output] No Response received from the remote slave/Unable to decode response
+[17:39:38] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:38] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:38] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:38] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:38] - CRITICAL: Cathode C OVERTEMP!
+[17:39:38] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:38] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:38] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:38] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:38] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:39] - CRITICAL: Cathode C OVERTEMP!
+[17:39:39] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:38] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:39] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:39] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:39] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:39] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:39] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:39] - CRITICAL: Cathode C OVERTEMP!
+[17:39:39] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:39] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:39] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:39] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:39] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:40] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:40] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:40] - CRITICAL: Cathode C OVERTEMP!
+[17:39:40] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:40] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:40] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:40] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:40] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:40] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:40] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:40] - CRITICAL: Cathode C OVERTEMP!
+[17:39:40] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:40] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:40] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:41] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:41] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:41] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:41] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:41] - CRITICAL: Cathode C OVERTEMP!
+[17:39:41] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:41] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:41] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:41] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:41] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:41] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:41] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:41] - CRITICAL: Cathode C OVERTEMP!
+[17:39:41] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:41] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:41] - INFO: Unit 1 Temperature: 19.8 C
+[17:39:42] - INFO: Temperature from unit 3: 1320.00 °C
+[17:39:42] - INFO: Unit 3 Temperature: 1320.0 C
+[17:39:42] - INFO: Temperature from unit 2: 19.90 °C
+[17:39:42] - INFO: Unit 2 Temperature: 19.9 C
+[17:39:42] - CRITICAL: Cathode C OVERTEMP!
+[17:39:42] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:39:42] - INFO: Temperature from unit 1: 19.80 °C
+[17:39:42] - INFO: Unit 1 Temperature: 19.8 C

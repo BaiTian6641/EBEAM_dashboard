@@ -1,0 +1,49 @@
+[17:17:41] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:17:41] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:41] - ERROR: Failed to open serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:17:41] - INFO: G9 driver initialized
+[17:17:42] - DEBUG: Initializing E5CNModbus with port: COM16
+[17:17:42] - ERROR: Failed to connect to the E5CN Modbus device.
+[17:17:42] - ERROR: Cannot start reading temperatures - connection failed
+[17:17:42] - ERROR: Failed to start temperature controllers at COM16
+[17:17:42] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:17:42] - DEBUG: Raw command sent: SABC3
+[17:17:42] - ERROR: Failed to initialize CathodeA PS on port DUMMY_COM1: 'NoneType' object has no attribute 'write'
+[17:17:42] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:17:42] - DEBUG: Raw command sent: SABC3
+[17:17:42] - ERROR: Failed to initialize CathodeB PS on port DUMMY_COM1: 'NoneType' object has no attribute 'write'
+[17:17:42] - ERROR: Error opening serial port DUMMY_COM1: could not open port 'DUMMY_COM1': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+[17:17:42] - DEBUG: Raw command sent: SABC3
+[17:17:42] - ERROR: Failed to initialize CathodeC PS on port DUMMY_COM1: 'NoneType' object has no attribute 'write'
+[17:17:42] - DEBUG: Power supply 1 not initialized. Button disabled.
+[17:17:42] - DEBUG: Power supply 2 not initialized. Button disabled.
+[17:17:42] - DEBUG: Power supply 3 not initialized. Button disabled.
+[17:17:42] - DEBUG: No power supplies were initialized properly.
+[17:17:42] - DEBUG: No connection to CCS temperature controller 1
+[17:17:42] - DEBUG: No connection to CCS temperature controller 2
+[17:17:42] - DEBUG: No connection to CCS temperature controller 3
+[17:17:42] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:42] - WARNING: G9 driver not connected
+[17:17:41] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:17:42] - ERROR: Failed to reconnect to PMON
+[17:17:42] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:43] - WARNING: G9 driver not connected
+[17:17:43] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:43] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:17:43] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:44] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:45] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:45] - WARNING: G9 driver not connected
+[17:17:45] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:46] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:46] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:47] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:47] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:48] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:48] - DEBUG: Attempting to connect on port ModbusSerialClient DUMMY_COM1:0
+[17:17:48] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:49] - WARNING: G9 driver not connected
+[17:17:49] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:50] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:50] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}
+[17:17:51] - DEBUG: PMON temps: {1: 'None', 2: 'None', 3: 'None', 4: 'None', 5: 'None', 6: 'None'}

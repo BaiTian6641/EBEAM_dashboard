@@ -94,36 +94,56 @@ class G9Driver:
             self.ser = None
             self.log("No port specified", LogLevel.WARNING)
 
+
+
     def _communication_thread(self):
         """Background thread for handling serial communication"""
-        while self._running:
-            try:
-                with self._lock:
-                    if not self.is_connected():
-                        time.sleep(0.1)
-                        continue
-                    
-                    self._send_command()
-                    response_data = self._read_response() # blocking until complete or timeout
-                    if response_data:
-                        
-                        result = self._process_response(response_data)
-                        
-                        # clear queue if it has a old response
-                        try:
-                            self._response_queue.get_nowait()
-                        except queue.Empty:
-                            pass
-                                       
-                        self._response_queue.put(result)
+        try:
+            while self._running:
+                try:
+                    with self._lock:
+                        if not self.is_connected():
+                            time.sleep(0.1)
+                            continue
 
-            except Exception as e:
-                self.log(f"Communication thread error: {str(e)}", LogLevel.ERROR)
-                #TODO: this might be solved with the comport detection, but if not might what to define this somewhere else
-                self._response_queue.queue[0] = ([0] * 13, [0] * 13, 0)
-                time.sleep(0.5) # back off on errors
+                        self._send_command()
+                        response_data = self._read_response()  # blocking until complete or timeout
+                        if response_data:
+                            result = self._process_response(response_data)
+
+                            # Clear queue if it has an old response
+                            try:
+                                self._response_queue.get_nowait()
+                            except queue.Empty:
+                                pass
+
+                            self._response_queue.put(result)
+
+                except Exception as e:
+                    self.log(f"Communication thread error: {str(e)}", LogLevel.ERROR)
+                    # Set a default response in case of error
+                    if not self._response_queue.empty():
+                        self._response_queue.queue[0] = ([0] * 13, [0] * 13, 0)
+                    else:
+                        self._response_queue.put(([0] * 13, [0] * 13, 0))
+                    
+                    time.sleep(0.5)  # Back off on errors
+                    self.close_serial_communication()
+                    break  # Exit the loop on a fatal error
+
+                time.sleep(0.1)  # Minimum sleep between successful reads   
+
+        finally:
+            # Ensure the serial communication is closed when the thread ends
+            self.close_serial_communication()
+
+        
                 
-            time.sleep(0.1)  # minimum sleep between successful reads
+
+    # Use a variable to track if the dashboard is running. Set it to false when a serial exception has been triggered, closing all the threads and ports after that.
+    # yet to be implemented
+    def close_serial_communication(self):
+        pass
 
 
     def get_interlock_status(self):
@@ -183,6 +203,7 @@ class G9Driver:
             
         except serial.SerialException as e:
             raise ConnectionError(f"Error reading response: {str(e)}")
+        
 
     def _process_response(self, data):
             """
