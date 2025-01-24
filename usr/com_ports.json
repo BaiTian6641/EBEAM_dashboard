@@ -1,0 +1,8 @@
+{
+    "VTRXSubsystem": "DUMMY_COM1",
+    "CathodeA PS": "DUMMY_COM2",
+    "CathodeB PS": "DUMMY_COM3",
+    "CathodeC PS": "DUMMY_COM4",
+    "TempControllers": "DUMMY_COM5",
+    "Interlocks": "DUMMY_COM6"
+}
